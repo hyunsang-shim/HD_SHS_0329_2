@@ -6,7 +6,20 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            int i = 2;
+            while (i<=6)
+            {
+                int j = 1;
+                while (j<=9)
+                {
+                    Console.WriteLine($"{i} * {j} = {i * j}");
+                    j++;
+                }
+
+                Console.WriteLine("");
+                i += 2;
+
+            }
         }
     }
 }
